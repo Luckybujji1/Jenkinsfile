@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('continuos download') {
+        stage('continuos down') {
             steps {
                 git 'https://github.com/Luckybujji1/DemoATC.git'
             }
